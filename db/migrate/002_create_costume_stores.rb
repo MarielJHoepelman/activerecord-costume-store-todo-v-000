@@ -8,7 +8,7 @@
 #  6. opening time
 #  7. closing time
 
-class CreateCostumes < ActiveRecord::Migration[5.1]
+class CreateCostumeStores < ActiveRecord::Migration[5.1]
   def change
     create_table :costumes do |t|
       t.string :name
