@@ -12,7 +12,7 @@
 #   2. price
 #   3. size
 #   4. image url
-class CreateCostumes < ActiveRecord::Migration[
+class CreateCostumes < ActiveRecord::Migration
   def change
     create_table :costumes do |t|
       t.string :name
